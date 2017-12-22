@@ -1,3 +1,4 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/Aram-Anderson/lets_talk.png?columns=all)](https://waffle.io/Aram-Anderson/lets_talk?utm_source=badge)
 # LetsTalk
 
 To start your Phoenix server:
