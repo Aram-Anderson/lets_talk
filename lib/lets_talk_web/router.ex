@@ -17,6 +17,11 @@ defmodule LetsTalkWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    resources "/users", UserController
+    scope "/admin", as: :admin do
+      resources "/users", Admin.UserController
+      resources "/questions", Admin.QuestionController
+    end
   end
 
   # Other scopes may use custom stacks.

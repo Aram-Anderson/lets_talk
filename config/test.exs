@@ -12,7 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :lets_talk, LetsTalk.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
+  username: "aram987",
   password: "postgres",
   database: "lets_talk_test",
   hostname: "localhost",
