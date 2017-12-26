@@ -51,7 +51,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :lets_talk, LetsTalk.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
+  username: "aram987",
   password: "postgres",
   database: "lets_talk_dev",
   hostname: "localhost",
