@@ -1,7 +1,5 @@
 use Mix.Config
 
-...
-
 config :lets_talk, LetsTalkWeb.Endpoint,
   load_from_system_env: true,
   url: [scheme: "https", host: "cap-lets-talk.herokuapp.com", port: 443],
